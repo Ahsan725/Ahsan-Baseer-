@@ -144,6 +144,8 @@ header.sticky{
     cursor: pointer;
     margin-bottom: 2rem;
     margin-top: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
 }
 
 .row img {
