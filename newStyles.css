@@ -589,6 +589,7 @@ header.sticky{
     font-size: 20px;
     padding: 10px;
     border-radius: 2rem;
+    box-shadow: 0 0 60px var(--secondary-color);
 }
 
 .about-text h3 span{
