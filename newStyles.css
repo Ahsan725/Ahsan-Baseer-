@@ -114,7 +114,7 @@ section {
 
 .home {
     position: relative;
-    height: 150vh;
+    height: 120vh;
     display: flex;
     flex-direction: column;
     align-items: center; /* Center content vertically */
@@ -323,7 +323,7 @@ header.sticky{
     }
     .home {
         position: relative;
-        height: 125vh;
+        height: 110vh;
     }
 }
 
