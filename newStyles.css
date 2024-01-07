@@ -108,13 +108,15 @@ header.sticky{
     line-height: 1.5;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 @media screen and (max-width: 768px) {
     .text-contrast {
         font-size: 16px;
-        margin-left: 0;
-        margin-right: 0;
+        /* margin-left: 0;
+        margin-right: 0; */
     }
     .maintitle {
         font-size: 16px;
