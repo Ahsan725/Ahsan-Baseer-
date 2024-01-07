@@ -99,3 +99,11 @@ window.onscroll = () => {
     menu.classList.remove('bx-x');
     navbar.classList.remove('open');
 };
+
+document.getElementById('email').addEventListener('click', function() {
+  window.location.href = 'mailto:sbaseer25@gmail.com';
+});
+
+document.getElementById('email1').addEventListener('click', function() {
+  window.location.href = 'mailto:sbaseer25@gmail.com';
+});
