@@ -578,6 +578,18 @@ header.sticky{
     padding: 10px;
     border-radius: 0.5rem;
 }
+.toggle{
+    position: fixed;
+    top: 5.1rem;
+    right: 2.1rem;
+}
+.toggle i{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}
 
 .about-text h3 span{
     font-weight: bolder;
