@@ -1,11 +1,13 @@
 var typed = new Typed(".text", {
   strings: [
     "a Software Engineer.",
+    "a Computer Science Student.",
     "a Frontend Developer.",
     "a Backend Developer.",
     "an IOS Developer.",
     "a UI / UX Designer.",
     "an AI / ML Engineer.",
+    
   ],
   typeSpeed: 100,
   backSpeed: 100,
@@ -33,7 +35,6 @@ var typed1 = new Typed(".text1", {
     "React JS.",
     "Redux.",
     "Next JS.",
-    "Node JS.",
     "Figma.",
     "UI / UX.",
     "Tailwind.",
