@@ -10,16 +10,22 @@
     --primary-color: #f7f1db;
     --secondary-color: rgb(157, 126, 222);
     --background-color: #191d2a;
+    --accent-color: rgb(157, 126, 222);
+    --accent-color2: rgba(157, 26, 222);
 
-    --light-primary-color: #000; /* Change these colors according to your light theme */
-    --light-secondary-color: #4377d6;
-    --light-background-color: #aabaf5;
+    --light-primary-color: #000; 
+    --light-secondary-color: #2a6be4;
+    --light-background-color: #acb5d4;
+    --light-accent-color: #9498a1;
+    --light-accent-color2: #000000;
 }
 
 body.light-mode {
     --primary-color: var(--light-primary-color);
     --secondary-color: var(--light-secondary-color);
     --background-color: var(--light-background-color);
+    --accent-color: var(--light-accent-color);
+    --accent-color2: var(--light-accent-color2);
     color: var(--primary-color);
     background-color: var(--background-color);
     transition: background-color 1.9s, color 1.9s; /* Add specific transition properties */
@@ -32,7 +38,7 @@ body.light-mode {
 }
 
 body.light-mode .navbar {
-    background: var(--background-color)
+    background: var(--background-color);
     box-shadow: #fff;
     border-radius: 100px;
 }
@@ -405,8 +411,8 @@ header.sticky{
     /* background: var(--secondary-color); */
     color: var(--primary-color);
     /* box-shadow: 0 0 30px var(--secondary-color); */
-    box-shadow: 1px 1px 60px rgb(157, 126, 222),
-    1px 1px 20px rgba(157, 26, 222);
+    box-shadow: 1px 1px 60px var(--accent-color),
+    1px 1px 20px var(--accent-color2);
     transform: translateY(-10px);
     scale: 105%;
     transition: 0.8s;
