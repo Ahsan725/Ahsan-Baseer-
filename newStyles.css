@@ -10,12 +10,46 @@
     --primary-color: #f7f1db;
     --secondary-color: rgb(157, 126, 222);
     --background-color: #191d2a;
+
+    --light-primary-color: #000; /* Change these colors according to your light theme */
+    --light-secondary-color: #4377d6;
+    --light-background-color: #aabaf5;
 }
 
-body {
+body.light-mode {
+    --primary-color: var(--light-primary-color);
+    --secondary-color: var(--light-secondary-color);
+    --background-color: var(--light-background-color);
     color: var(--primary-color);
     background-color: var(--background-color);
+    transition: background-color 1.9s, color 1.9s; /* Add specific transition properties */
 }
+
+  body {
+    color: var(--primary-color);
+    background-color: var(--background-color);
+    transition: background-color 1.9s, color 1.9s; /* Add specific transition properties */
+}
+
+body.light-mode .navbar {
+    background: var(--background-color)
+    box-shadow: #fff;
+    border-radius: 100px;
+}
+
+body.light-mode .navbar a {
+    color: var(--primary-color);
+}
+
+body.light-mode .navbar a:hover {
+    color: var(--secondary-color);
+    scale: 135%;
+    text-shadow:  0 0 40px var(--secondary-color);
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
 header {
     position: fixed;
@@ -35,7 +69,7 @@ header {
     font-size: 35px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: var(--bg-color);
+    /* color: var(--bg-color); */
     text-decoration: none;
     background-color: var(--background-color);
     border-radius: 20px;
@@ -47,7 +81,7 @@ header {
 }
 
 .navbar a {
-    color: var(--bg-color);
+    /* color: var(--bg-color); */
     font-size: var(--p-font);
     font-weight: 700;
     padding: 10px 22px;

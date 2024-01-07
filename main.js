@@ -107,3 +107,24 @@ document.getElementById('email').addEventListener('click', function() {
 document.getElementById('email1').addEventListener('click', function() {
   window.location.href = 'mailto:sbaseer25@gmail.com';
 });
+
+document.addEventListener('DOMContentLoaded', function () {
+  const body = document.body;
+  const themeToggleBtn = document.getElementById('themeToggle');
+
+  // Check if the user has a preferred theme stored in localStorage
+  const preferredTheme = localStorage.getItem('theme');
+
+  // Apply the preferred theme or default to 'dark-mode'
+  body.classList.toggle('light-mode', preferredTheme === 'light');
+
+  // Add an event listener to the button for theme toggling
+  themeToggleBtn.addEventListener('click', function () {
+    // Toggle the 'light-mode' class on the body
+    body.classList.toggle('light-mode');
+
+    // Save the user's preference to localStorage
+    const isLightMode = body.classList.contains('light-mode');
+    localStorage.setItem('theme', isLightMode ? 'light' : 'dark');
+  });
+});
