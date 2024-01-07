@@ -37,6 +37,8 @@ header {
     letter-spacing: 1px;
     color: var(--bg-color);
     text-decoration: none;
+    background-color: var(--background-color);
+    border-radius: 20px;
 }
 
 .navbar {
