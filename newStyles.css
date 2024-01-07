@@ -360,11 +360,13 @@ header.sticky{
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
     background-color: transparent;
-    padding: 20px; /* Adjust padding */
-    text-align: center; /* Center content vertically */
+    padding: 20px; 
+    text-align: center; 
     font-size: 15px;
-    font-weight: 400; /* Adjust font weight */
+    font-weight: 400;
     border-radius: 20px;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .services-list div:hover{
     /* background: var(--secondary-color); */
