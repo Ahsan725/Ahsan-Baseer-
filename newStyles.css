@@ -569,26 +569,26 @@ header.sticky{
 .top{
     position: fixed;
     bottom: 2.1rem;
-    right: 2.1rem;
+    right: 0.7rem;
 }
 .top i{
     color: var(--primary-color);
     background-color: var(--secondary-color);
     font-size: 20px;
     padding: 10px;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
 }
 .toggle{
     position: fixed;
     top: 5.1rem;
-    right: 2.1rem;
+    right: 0.7rem;
 }
 .toggle i{
     color: var(--primary-color);
     background-color: var(--secondary-color);
     font-size: 20px;
     padding: 10px;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
 }
 
 .about-text h3 span{
