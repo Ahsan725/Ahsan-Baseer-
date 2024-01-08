@@ -225,6 +225,10 @@ header.sticky{
     scale: 115%;
     transition: 1s;
 }
+.btn-box:active {
+    transform: translateY(30px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
 
 .home-sci a {
     display: inline-flex;
@@ -245,6 +249,8 @@ header.sticky{
     background: var(--secondary-color);
     color: var(--primary-color);
     box-shadow: 0 0 30px var(--secondary-color);
+    scale: 125%;
+    transition: 0.2s;
 }
 
 @media (max-width: 1400px){
