@@ -651,6 +651,6 @@ header.sticky{
     height: 100%;
     width: 0;
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-    transition: width 0.1s; 
+    transition: width 0.0s; 
     border-radius: 3px;
 }
