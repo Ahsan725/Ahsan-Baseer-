@@ -17,11 +17,11 @@ html {
     --accent-color: rgb(157, 126, 222);
     --accent-color2: rgba(157, 26, 222);
 
-    --light-primary-color: #000; 
+    --light-primary-color: #191d2a; 
     --light-secondary-color: #2a6be4;
-    --light-background-color: #dad4b6;
+    --light-background-color: #f7f1db;
     --light-accent-color: #9498a1;
-    --light-accent-color2: #000000;
+    --light-accent-color2: #191d2a;
 }
 
 body.light-mode {
