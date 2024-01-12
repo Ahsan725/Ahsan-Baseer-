@@ -7,7 +7,6 @@ var typed = new Typed(".text", {
     "an IOS Developer.",
     "a UI / UX Designer.",
     "an AI / ML Engineer.",
-    
   ],
   typeSpeed: 100,
   backSpeed: 100,
@@ -144,3 +143,15 @@ document.addEventListener("DOMContentLoaded", function () {
     localStorage.setItem("theme", isLightMode ? "light" : "dark");
   });
 });
+
+const progressBar = document.querySelector(".progress-bar");
+
+window.addEventListener("scroll", () => {
+    const scrolled = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+
+    progressBar.style.width = `${scrolled}%`;
+});
+
+
+
+
