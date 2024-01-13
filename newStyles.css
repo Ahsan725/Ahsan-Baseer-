@@ -388,7 +388,7 @@ header.sticky{
 }
 .home-content h1{
     /* font-size: 60px; */
-    font-size: clamp(3rem, 0.3043rem + 3.4783vw, 5rem);
+    font-size: clamp(3.5rem, 0.3043rem + 3.4783vw, 5rem);
     font-weight: 700;
     /* margin: -3px 0; */
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
