@@ -372,7 +372,8 @@ header.sticky{
 }
 
 .home-content h3{
-    font-size: 32px;
+    /* font-size: 32px; */
+    font-size: clamp(1.3rem, 0.3043rem + 3.4783vw, 3rem);
     font-weight: 700;
 }
 .home-content h3 span{
@@ -386,7 +387,8 @@ header.sticky{
     margin-bottom: 30px;
 }
 .home-content h1{
-    font-size: 60px;
+    /* font-size: 60px; */
+    font-size: clamp(3rem, 0.3043rem + 3.4783vw, 5rem);
     font-weight: 700;
     /* margin: -3px 0; */
     background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
