@@ -584,7 +584,7 @@ header.sticky{
     right: 0.7rem;
 }
 .top i{
-    color: var(--primary-color);
+    color: #f7f1db;
     background-color: var(--secondary-color);
     font-size: 20px;
     padding: 10px;
@@ -596,7 +596,7 @@ header.sticky{
     right: 0.7rem;
 }
 .toggle i{
-    color: var(--primary-color);
+    color: #f7f1db;
     background-color: var(--secondary-color);
     font-size: 20px;
     padding: 10px;
