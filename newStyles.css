@@ -553,7 +553,7 @@ header.sticky{
   }
   .layer p{
     color: var(--primary-color);
-    font-size: clamp(10px, 0.3043rem + 3.4783dvw, 1rem);
+    font-size: clamp(8px, 0.3043rem + 3.4783dvw, 1rem);
     line-height: clamp(0.1rem, 0.3043rem + 3.4783dvw, 1.8rem);
   }
   .layer i{
@@ -569,7 +569,7 @@ header.sticky{
     border-radius: 50%;
   }
   .row:hover img{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
   }
   .row:hover .layer{
     height: 100%;
