@@ -20,7 +20,7 @@ html {
 
     --light-primary-color: #191d2a;
     --light-primary-shadow-color: #7a7d8433; 
-    --light-secondary-color: #789fe9;
+    --light-secondary-color: #5588e8;
     --light-background-color: #f7f1db;
     --light-accent-color: #9498a1;
     --light-accent-color2: #191d2a;
@@ -544,7 +544,7 @@ header.sticky{
     /* padding: 0 40px; */
     padding: 0 0.5rem;
     transition: height 0.5s;
-    opacity: 85%;
+    opacity: 90%;
   }
   .layer h5{
     color: var(--primary-color);
