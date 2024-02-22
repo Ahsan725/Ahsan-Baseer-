@@ -543,7 +543,7 @@ header.sticky{
     text-align: center;
     padding: 0 40px;
     transition: height 0.5s;
-    opacity: 95%;
+    opacity: 80%;
   }
   .layer h5{
     color: var(--primary-color);
