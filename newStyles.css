@@ -546,7 +546,7 @@ header.sticky{
     opacity: 95%;
   }
   .layer h5{
-    color: var(--background-color);
+    color: var(--primary-color);
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 15px;
