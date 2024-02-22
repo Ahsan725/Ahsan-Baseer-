@@ -553,8 +553,8 @@ header.sticky{
   }
   .layer p{
     color: var(--primary-color);
-    font-size: 1rem;
-    line-height: 1.8;
+    font-size: clamp(10px, 0.3043rem + 3.4783dvw, 1rem);
+    line-height: clamp(0.1rem, 0.3043rem + 3.4783dvw, 1.8rem);
   }
   .layer i{
     color: #FC466B;
