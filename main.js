@@ -152,6 +152,20 @@ window.addEventListener("scroll", () => {
     progressBar.style.width = `${scrolled}%`;
 });
 
+const boxes = document.querySelectorAll('.box');
+
+function showBoxesOnScroll() {
+  boxes.forEach(box => {
+    const boxTop = box.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (boxTop < windowHeight) {
+      box.classList.add('animate');
+    }
+  });
+}
+
+window.addEventListener('scroll', showBoxesOnScroll);
+
 
 
 

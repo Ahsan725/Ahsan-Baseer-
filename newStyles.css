@@ -757,3 +757,14 @@ header.sticky{
   text-decoration: underline;
   margin-bottom: 0.4rem;
 }
+
+.box.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.box{
+opacity: 0;
+transform: translateY(100%);
+transition: opacity 1.5s ease, transform 2.5s ease; /* Added transition */
+}
