@@ -599,6 +599,7 @@ header.sticky{
     position: fixed;
     top: 5.1rem;
     right: 0.7rem;
+    cursor: pointer;
 }
 .toggle i{
     color: #f7f1db;
