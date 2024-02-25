@@ -166,6 +166,3 @@ function showBoxesOnScroll() {
 
 window.addEventListener('scroll', showBoxesOnScroll);
 
-
-
-
