@@ -766,5 +766,5 @@ header.sticky{
 .box{
 opacity: 0;
 transform: translateY(100%);
-transition: opacity 1.5s ease, transform 2.5s ease; /* Added transition */
+transition: opacity 1.5s ease, transform 0.5s ease; /* Added transition */
 }
