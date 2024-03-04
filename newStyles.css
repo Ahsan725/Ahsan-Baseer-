@@ -974,7 +974,7 @@ ol, ul, menu {
   }
   
   .container {
-    flex: 0 1 700px;
+    flex: 0 1 1000px;
     margin: auto;
     padding: 10px;
   }
@@ -1021,11 +1021,11 @@ ol, ul, menu {
   }
   
   .screen-header-button.close {
-    background: #ed1c6f;
+    background: #d73d7a;
   }
   
   .screen-header-button.maximize {
-    background: #e8e925;
+    background: #e9bf25;
   }
   
   .screen-header-button.minimize {
@@ -1104,13 +1104,12 @@ ol, ul, menu {
     border-bottom: 1px solid #666;
     color: #ddd;
     font-size: 14px;
-    text-transform: uppercase;
     outline: none;
     transition: border-color .2s;
   }
   
   .app-form-control::placeholder {
-    color: #666;
+    color: #b0adad;
   }
   
   .app-form-control:focus {
@@ -1167,4 +1166,5 @@ ol, ul, menu {
   textarea {
     overflow-wrap: break-word; /* or normal, or anywhere */
     overflow: hidden;
+    min-height: 14em;
 }
