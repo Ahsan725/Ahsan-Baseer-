@@ -19,11 +19,13 @@
         <ul class="navbar">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#project">Portfolio</a></li>
                 <li><a href="#articles">Articles</a></li>
                 <li><a href="#posts">Posts</a></li>
                 <li><a href="#resume">Resume</a></li>
+                
         </ul>
     </header>
     
@@ -218,7 +220,11 @@
                 </div>
                 <div class="row">
                     <h3 class="project-title">Convertify</h3>
-                    <img src="/convertify1.gif">
+                    <!-- <img src="/convertify1.gif"> -->
+                    <video width="100%" height="auto" autoplay loop>
+                        <source src="convertvid.webm" type="video/webm">
+                        Your browser does not support the video tag.
+                    </video>
                     <div class="layer">
                         <h5>Convertify</h5>
                         <p>Developed an image and video converter powered by Next.js. With its client-side processing capabilities, Convertify offers rapid conversions without limitations ensuring blazing-fast performance and enhanced security, positioning Convertify as a highly scalable and cost-efficient Software as a Service (SaaS) solution. Used FFmpeg to convert image and video files to WebAssembly (.wasm), facilitating real-time format changes. Its intelligent auto-detection feature recognizes the format of uploaded files, presenting users with a dynamic list of compatible formats for conversion. Supports simultaneous and asynchronous conversion of multiple files with a remarkable 67% faster conversion rate compared to most conventional file converters when processing the same set of files. 
@@ -366,7 +372,57 @@
             </li>
           </ul>
     </section>
-
+    <form action="https://api.web3forms.com/submit" method="POST" id="contact">
+        <div class="background">
+            <div class="container">
+              <div class="screen">
+                <div class="screen-header">
+                  <div class="screen-header-left">
+                    <div class="screen-header-button close"></div>
+                    <div class="screen-header-button maximize"></div>
+                    <div class="screen-header-button minimize"></div>
+                  </div>
+                  <div class="screen-header-right">
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                    <div class="screen-header-ellipsis"></div>
+                  </div>
+                </div>
+                <div class="screen-body">
+                  <div class="screen-body-item left">
+                    <div class="app-title">
+                      <span>CONTACT</span>
+                      <span>ME</span>
+                    </div>
+                    <div class="app-contact">Ahsan Baseer</div>
+                  </div>
+                  <div class="screen-body-item">
+                    <div class="app-form">
+                        <input type="hidden" name="access_key" value="89b85a1d-9630-4362-85b2-76ff6fc9f6ee">
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="NAME" type="text" name="name" required>
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="EMAIL" type="email" name="email" required>
+                      </div>
+                      <div class="app-form-group">
+                        <input class="app-form-control" placeholder="CONTACT NO">
+                      </div>
+                      <div class="app-form-group message">
+                        <!-- <input class="app-form-control" placeholder="MESSAGE" name="message" required> -->
+                        <textarea class="app-form-control" placeholder="MESSAGE" name="message" required></textarea>
+                      </div>
+                      <div class="app-form-group buttons">
+                        <button class="app-form-button">CANCEL</button>
+                        <button class="app-form-button" type="submit">SEND</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
     <section id="resume">
         <div class="container">
             <h1 class="sub-title"><span>Resume</span></h1>
@@ -486,6 +542,7 @@
         </div>
     </section>
 
+   
     
 
     <a href="#" class="top"><i class="bx bx-up-arrow-alt"></i></a>
