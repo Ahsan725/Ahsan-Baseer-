@@ -176,7 +176,7 @@ function displaySuccessMessage() {
   // Hide the message after 10 seconds
   setTimeout(function() {
       existingDiv.removeChild(successMessage);
-  }, 5000); // 10000 milliseconds = 10 seconds
+  }, 3000); // 10000 milliseconds = 10 seconds
 }
 
 // Call the function when the page is loaded
