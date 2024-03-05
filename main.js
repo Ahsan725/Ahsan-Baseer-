@@ -98,9 +98,9 @@ document.getElementById("email").addEventListener("click", function () {
   window.location.href = "mailto:sbaseer25@gmail.com";
 });
 
-document.getElementById("email1").addEventListener("click", function () {
-  window.location.href = "mailto:sbaseer25@gmail.com";
-});
+// document.getElementById("email1").addEventListener("click", function () {
+//   window.location.href = "mailto:sbaseer25@gmail.com";
+// });
 
 document.addEventListener("DOMContentLoaded", function () {
   const body = document.body;
