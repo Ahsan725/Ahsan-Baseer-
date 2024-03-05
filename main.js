@@ -187,7 +187,7 @@ window.onload = displaySuccessMessage;
 
 
 
-if (window.location.pathname === '/chat') {
+if (window.location.pathname === 'https://www.ahsanbaseer.com/chat') {
     window.location.href = 'www.google.com';
 }
 
