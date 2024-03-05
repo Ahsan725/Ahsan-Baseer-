@@ -181,13 +181,3 @@ function displaySuccessMessage() {
 
 // Call the function when the page is loaded
 window.onload = displaySuccessMessage;
-
-
-
-
-
-
-if (window.location.pathname === '/chat') {
-  window.location.href = 'https://www.google.com';
-}
-
