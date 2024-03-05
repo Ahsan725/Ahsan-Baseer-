@@ -166,3 +166,18 @@ function showBoxesOnScroll() {
 
 window.addEventListener('scroll', showBoxesOnScroll);
 
+function displaySuccessMessage() {
+  var existingDiv = document.getElementById('existingDiv');
+  var successMessage = document.createElement('div');
+  successMessage.textContent = 'Success! Your message was sent ✓';
+  successMessage.classList.add('success-message'); // Add the 'success-message' class for styling
+  existingDiv.appendChild(successMessage);
+
+  // Hide the message after 10 seconds
+  setTimeout(function() {
+      existingDiv.removeChild(successMessage);
+  }, 10000); // 10000 milliseconds = 10 seconds
+}
+
+// Call the function when the page is loaded
+window.onload = displaySuccessMessage;
