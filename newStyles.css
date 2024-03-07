@@ -1238,7 +1238,6 @@ ol, ul, menu {
   overflow-x: auto;
   overflow-y: hidden;
   white-space: nowrap;
-  padding: 10px 0;
   margin: 0;
   list-style-type: none;
   /* gap: 20px; */
