@@ -1062,7 +1062,9 @@ ol, ul, menu {
     display: flex;
     flex-direction: column;
     position: relative;
-    color: #ea1d6f;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 26px;
   }
   
@@ -1074,7 +1076,9 @@ ol, ul, menu {
     bottom: -10px;
     width: 25px;
     height: 4px;
-    background: #ea1d6f;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
   
   .app-contact {
@@ -1119,7 +1123,8 @@ ol, ul, menu {
   .app-form-button {
     /* background: none; */
     border: none;
-    background-color: #ea1d6f;
+    color: white;
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
     font-size: 14px;
     cursor: pointer;
     outline: none;
@@ -1128,7 +1133,9 @@ ol, ul, menu {
   }
   
   .app-form-button:hover {
-    background-color: #b9134f;
+    scale: 105%;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
   
   @media screen and (max-width: 520px) {
@@ -1164,7 +1171,7 @@ ol, ul, menu {
   }
   
   textarea {
-    overflow-wrap: break-word; /* or normal, or anywhere */
+    overflow-wrap: break-word;
     overflow: hidden;
     min-height: 10em;
 }

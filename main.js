@@ -173,7 +173,7 @@ function displaySuccessMessage() {
   successMessage.classList.add('success-message'); // Add the 'success-message' class for styling
   existingDiv.appendChild(successMessage);
 
-  // Hide the message after 10 seconds
+  // Hide the message after 3 seconds
   setTimeout(function() {
       existingDiv.removeChild(successMessage);
   }, 3000); // 10000 milliseconds = 10 seconds
