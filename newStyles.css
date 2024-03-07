@@ -1365,3 +1365,8 @@ ol, ul, menu {
   background-color: rgba(0, 0, 0, 0.5); /* color of the scrollbar thumb on hover */
 }
 
+.project-btn{
+  font-size: 2rem;
+  margin: 5rem;
+  padding: 0.5rem;
+}
