@@ -1309,19 +1309,12 @@ ol, ul, menu {
   margin-bottom: 20px; /* Adjust margin between articles */
 }
 
-@media screen and (max-width: 1200px) {
-  .articles {
-    overflow-y: auto;
-    height: 400px; /* Adjust height as needed */
-    position: relative;
-  }
-}
 
 /* Adjust media query for small screens */
 @media screen and (max-width: 768px) {
   .articles {
     overflow-y: auto;
-    height: 400px; /* Adjust height as needed */
+    height: 500px; /* Adjust height as needed */
     position: relative;
   }
 }
