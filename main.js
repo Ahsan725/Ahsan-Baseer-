@@ -198,7 +198,7 @@ function startAutoplay() {
             scrollPosition = 0;
         }
         scrollContainer(scrollPosition);
-    }, 4000); // Adjust autoplay interval as needed (in milliseconds)
+    }, 6000); // Adjust autoplay interval as needed (in milliseconds)
 }
 
 // Function to stop autoplay
