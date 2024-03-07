@@ -1294,3 +1294,17 @@ ol, ul, menu {
   margin-left: 4rem;
 
 }
+
+#articles {
+  overflow: hidden;
+}
+
+.articles {
+  overflow-y: auto;
+  height: 600px; /* Adjust height as needed */
+  position: relative;
+}
+
+.article {
+  margin-bottom: 20px; /* Adjust margin between articles */
+}
