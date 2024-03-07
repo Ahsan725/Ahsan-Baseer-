@@ -1239,7 +1239,7 @@ ol, ul, menu {
   overflow-y: hidden;
   white-space: nowrap;
   padding: 10px 0;
-  margin: 1rem;
+  margin: auto;
   list-style-type: none;
   gap: 20px; /* Adjust the gap between posts */
   overflow-y: auto;
