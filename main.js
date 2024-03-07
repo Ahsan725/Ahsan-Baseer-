@@ -181,3 +181,69 @@ function displaySuccessMessage() {
 
 // Call the function when the page is loaded
 window.onload = displaySuccessMessage;
+
+
+
+// JavaScript code for autoplay functionality
+var scrollInterval;
+var containerWidth;
+var scrollPosition = 0;
+
+// Function to start autoplay
+function startAutoplay() {
+    containerWidth = document.querySelector('.grid-auto-md').scrollWidth;
+    scrollInterval = setInterval(function() {
+        scrollPosition += 200; // Adjust scroll amount as needed
+        if (scrollPosition >= containerWidth) {
+            scrollPosition = 0;
+        }
+        scrollContainer(scrollPosition);
+    }, 2000); // Adjust autoplay interval as needed (in milliseconds)
+}
+
+// Function to stop autoplay
+function stopAutoplay() {
+    clearInterval(scrollInterval);
+}
+
+// Function to scroll the container to a specific position
+function scrollContainer(position) {
+    var container = document.querySelector('.grid-auto-md');
+    container.scrollTo({
+        left: position,
+        behavior: 'smooth'
+    });
+}
+
+// Start autoplay when the page loads
+document.addEventListener('DOMContentLoaded', function() {
+    startAutoplay();
+});
+
+// Pause autoplay when the container is hovered
+document.querySelector('.grid-auto-md').addEventListener('mouseenter', function() {
+    stopAutoplay();
+});
+
+// Resume autoplay when the container is not hovered
+document.querySelector('.grid-auto-md').addEventListener('mouseleave', function() {
+    startAutoplay();
+});
+
+
+function prevButtonClick() {
+  scrollPosition -= 200; // Adjust scroll amount as needed
+  if (scrollPosition < 0) {
+      scrollPosition = containerWidth - container.clientWidth;
+  }
+  scrollContainer(scrollPosition);
+}
+
+// Function to handle next button click
+function nextButtonClick() {
+  scrollPosition += 200; // Adjust scroll amount as needed
+  if (scrollPosition >= containerWidth) {
+      scrollPosition = 0;
+  }
+  scrollContainer(scrollPosition);
+}
