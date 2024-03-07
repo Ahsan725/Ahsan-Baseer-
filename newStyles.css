@@ -1249,7 +1249,6 @@ ol, ul, menu {
 }
 .grid-auto-md li {
   flex: 0 0 calc(33.33% - 20px); /* Adjust as needed */
-  margin-right: 10px; /* Adjust as needed */
   scroll-snap-align: center;
 }
 
