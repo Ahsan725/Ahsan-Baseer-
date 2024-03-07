@@ -1308,3 +1308,67 @@ ol, ul, menu {
 .article {
   margin-bottom: 20px; /* Adjust margin between articles */
 }
+
+@media screen and (max-width: 1200px) {
+  .articles {
+    overflow-y: auto;
+    height: 400px; /* Adjust height as needed */
+    position: relative;
+  }
+}
+
+/* Adjust media query for small screens */
+@media screen and (max-width: 768px) {
+  .articles {
+    overflow-y: auto;
+    height: 400px; /* Adjust height as needed */
+    position: relative;
+  }
+}
+
+.articles::-webkit-scrollbar {
+  width: 0;  /* remove scrollbar width */
+}
+
+.articles:hover::-webkit-scrollbar {
+  width: 10px; /* show scrollbar width on hover */
+}
+
+/* scrollbar track */
+.articles::-webkit-scrollbar-track {
+  background-color: transparent; /* make scrollbar track transparent */
+}
+
+/* scrollbar thumb */
+.articles::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* color of the scrollbar thumb */
+  border-radius: 5px; /* round the edges of the scrollbar thumb */
+}
+
+.articles:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* color of the scrollbar thumb on hover */
+}
+
+.grid-auto-md::-webkit-scrollbar {
+  height: 0;  /* remove scrollbar width */
+}
+
+.grid-auto-md:hover::-webkit-scrollbar {
+  height: 10px; /* show scrollbar width on hover */
+}
+
+/* scrollbar track */
+.grid-auto-md::-webkit-scrollbar-track {
+  background-color: transparent; /* make scrollbar track transparent */
+}
+
+/* scrollbar thumb */
+.grid-auto-md::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* color of the scrollbar thumb */
+  border-radius: 5px; /* round the edges of the scrollbar thumb */
+}
+
+.grid-auto-md:hover::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.5); /* color of the scrollbar thumb on hover */
+}
+
