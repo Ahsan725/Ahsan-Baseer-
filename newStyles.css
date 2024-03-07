@@ -1239,9 +1239,9 @@ ol, ul, menu {
   overflow-y: hidden;
   white-space: nowrap;
   padding: 10px 0;
-  margin: auto;
+  margin: 0;
   list-style-type: none;
-  gap: 20px; /* Adjust the gap between posts */
+  /* gap: 20px; */
   overflow-y: auto;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
