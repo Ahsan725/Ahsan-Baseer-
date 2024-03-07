@@ -1314,7 +1314,7 @@ ol, ul, menu {
 @media screen and (max-width: 768px) {
   .articles {
     overflow-y: auto;
-    height: 500px; /* Adjust height as needed */
+    height: 450px; /* Adjust height as needed */
     position: relative;
   }
 }
