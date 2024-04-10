@@ -592,6 +592,7 @@ header.sticky{
     bottom: 2.1rem;
     right: 0.7rem;
     z-index: 99000;
+    cursor: pointer;
 }
 .top i{
     color: #f7f1db;
@@ -605,6 +606,7 @@ header.sticky{
     top: 5.1rem;
     right: 0.7rem;
     cursor: pointer;
+    z-index: 99000;
 }
 .toggle i{
     color: #f7f1db;
