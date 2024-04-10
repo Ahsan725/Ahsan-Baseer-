@@ -1377,7 +1377,8 @@ ol, ul, menu {
   padding: 0.5rem;
 }
 .exp-post {
-	padding: 30rem;
+	padding-left: 30rem;
+  padding-right: 30rem;
 }
 
 @media (max-width: 768px) {
