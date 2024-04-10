@@ -1376,3 +1376,12 @@ ol, ul, menu {
   margin-top: 5rem;
   padding: 0.5rem;
 }
+.exp-post {
+	padding: 30rem;
+}
+
+@media (max-width: 768px) {
+	.exp-post {
+		padding: initial;
+	}
+}
