@@ -1384,5 +1384,6 @@ ol, ul, menu {
 @media (max-width: 1444px) {
 	.exp-post {
 		padding: initial;
+    margin: 2rem;
 	}
 }
